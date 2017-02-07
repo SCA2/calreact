@@ -34,6 +34,7 @@ class AppointmentForm extends React.Component {
     return (
       <div>
         <h2>Make a new appointment</h2>
+        <p><Label label='Enter a title, date, and time'/></p>
         <form onSubmit={this.handleSubmit}>
           <input name='title'
             value={this.props.title}
