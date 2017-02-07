@@ -1,15 +1,8 @@
-class AppointmentsList extends React.Component {
-  render() {
-    return (
-      <div>
-        {this.props.appointments.map((appointment) => {
-          return (
-            <Appointment
-              key={appointment.id}
-              appointment={appointment} />
-          )
-        })}
-      </div>
-    )
-  }
-}
+const AppointmentsList = ({appointments}) =>
+  <div>
+    {appointments.map((appointment) =>
+      <Appointment
+        key={appointment.id}
+        appointment={appointment} />
+    )}
+  </div>

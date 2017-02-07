@@ -7,15 +7,15 @@ class AppointmentForm extends React.Component {
   }
 
   handleChange(e) {
-    let name = e.target.name
-    let obj = {}
+    const name = e.target.name
+    const obj = {}
     obj[name] = e.target.value
     this.props.onChange(obj)
   }
 
   setAppTime(e) {
-    let name = 'appt_time'
-    let obj = {}
+    const name = 'appt_time'
+    const obj = {}
     if(obj[name] = e.toDate()) {
       this.props.onChange(obj)
     }
@@ -27,7 +27,7 @@ class AppointmentForm extends React.Component {
   }
 
   render() {
-    var inputProps = {
+    const inputProps = {
       name: 'appt_time'
     }
 

@@ -20,12 +20,13 @@ class Appointments extends React.Component {
       title: this.state.title,
       appt_time: this.state.appt_time
     }
+
     $.ajax({
       url: '/appointments',
       type: 'POST',
       data: {appointment: appointment},
       success: () => {
-        console.log('Successfully added appointment' + appointment.id);
+        console.log('Successfully added appointment');
         this.addAppointment(appointment);
       }
     })
