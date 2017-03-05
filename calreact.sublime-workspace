@@ -1,0 +1,535 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"han",
+				"handleSetAppTime"
+			],
+			[
+				"hand",
+				"handleSubmit"
+			],
+			[
+				"in",
+				"input_appt_time"
+			],
+			[
+				"app",
+				"appointment_params"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"upd",
+				"updateItems"
+			],
+			[
+				"ha",
+				"handleEdit"
+			],
+			[
+				"item",
+				"item_params"
+			],
+			[
+				"recor",
+				"recordRow"
+			],
+			[
+				"R",
+				"RecordForm"
+			],
+			[
+				"rail",
+				"rails-assets"
+			],
+			[
+				"new",
+				"new_c"
+			],
+			[
+				"pl",
+				"playerCell"
+			],
+			[
+				"fin",
+				"findEmptyCenter"
+			],
+			[
+				"cmp",
+				"cmp_cb"
+			],
+			[
+				"dis",
+				"distributed"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"all",
+				"allowDiagonals"
+			],
+			[
+				"color",
+				"colorCell"
+			],
+			[
+				"col",
+				"colorPathToNeighbor"
+			],
+			[
+				"nei",
+				"neighbors"
+			],
+			[
+				"cellN",
+				"cellNeighborCount"
+			],
+			[
+				"Ma",
+				"MaxPQ"
+			],
+			[
+				"n",
+				"neighbors"
+			],
+			[
+				"from",
+				"from_cell"
+			],
+			[
+				"ce",
+				"cell_2"
+			],
+			[
+				"ran",
+				"randomRange"
+			],
+			[
+				"button",
+				"buttonName"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"person",
+				"PersonRow"
+			],
+			[
+				"Rea",
+				"ReactDOM"
+			],
+			[
+				"commentL",
+				"CommentList"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 390.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/assets",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/assets/javascripts",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/assets/javascripts/components",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/views/appointments"
+	],
+	"file_history":
+	[
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/assets/javascripts/components/_appointment_form.jsx",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/assets/javascripts/components/_appointments.jsx",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/assets/javascripts/components/_label.jsx",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/assets/javascripts/components/_appointment.jsx",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/assets/javascripts/components/_appointments_list.jsx",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/Gemfile",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/views/appointments/index.html.haml",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/assets/stylesheets/appointments.scss",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/assets/stylesheets/react-datetime.css",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/controllers/appointments_controller.rb",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/assets/javascripts/react-datetime.min.js",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/assets/javascripts/application.js",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/assets/javascripts/utils.js",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/config/application.rb",
+		"/media/tpryan/Applications/RailsProjects/ReactApi/item_cart/app/assets/javascripts/components/_new_item.js.jsx",
+		"/media/tpryan/Applications/RailsProjects/ReactApi/item_cart/app/assets/javascripts/components/_body.js.jsx",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/views/appointments/create.js.haml",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/app/views/appointments/_appointments.html.haml",
+		"/media/tpryan/Applications/RailsProjects/ReactRails/calreact/config/routes.rb",
+		"/media/tpryan/Applications/RailsProjects/ReactApi/item_cart/app/assets/javascripts/components/_main.js.jsx",
+		"/media/tpryan/Applications/RailsProjects/ReactApi/item_cart/app/assets/javascripts/components/_all_items.js.jsx",
+		"/media/tpryan/Applications/RailsProjects/ReactApi/item_cart/app/assets/javascripts/components/_item.js.jsx",
+		"/media/tpryan/Applications/RailsProjects/ReactApi/item_cart/app/assets/javascripts/components/_header.js.jsx",
+		"/media/tpryan/Applications/RailsProjects/ReactApi/item_cart/db/seeds.rb",
+		"/media/tpryan/Applications/RailsProjects/ReactApi/item_cart/Gemfile",
+		"/media/tpryan/Applications/RailsProjects/ReactApi/item_cart/app/controllers/api/v1/base_controller.rb",
+		"/media/tpryan/Applications/RailsProjects/ReactApi/item_cart/app/controllers/api/v1/items_controller.rb",
+		"/media/tpryan/Applications/RailsProjects/ReactApi/item_cart/config/routes.rb",
+		"/media/tpryan/Applications/RailsProjects/ReactApi/item_cart/app/controllers/site_controller.rb",
+		"/media/tpryan/Applications/RailsProjects/ReactApi/item_cart/app/views/site/index.html.erb",
+		"/media/tpryan/Applications/RailsProjects/ReactApi/item_cart/app/controllers/application_controller.rb",
+		"/media/tpryan/Applications/RailsProjects/Accounts/app/assets/javascripts/components/record_form.es6.jsx",
+		"/media/tpryan/Applications/RailsProjects/Accounts/app/assets/javascripts/components/record.es6.jsx",
+		"/media/tpryan/Applications/RailsProjects/Accounts/Gemfile",
+		"/media/tpryan/Applications/RailsProjects/Accounts/app/assets/javascripts/components/records.es6.jsx",
+		"/media/tpryan/Applications/RailsProjects/Accounts/app/controllers/records_controller.rb",
+		"/media/tpryan/Applications/RailsProjects/Accounts/.gitignore",
+		"/media/tpryan/Applications/RailsProjects/Accounts/app/assets/javascripts/components/amount_box.es6.jsx",
+		"/media/tpryan/Applications/RailsProjects/Accounts/config/application.rb",
+		"/media/tpryan/Applications/FreeCodeCamp/roguelike/App.js",
+		"/media/tpryan/Applications/RailsProjects/Accounts/app/views/records/index.html.erb",
+		"/media/tpryan/Applications/RailsProjects/Accounts/app/assets/javascripts/utils.es6.jsx",
+		"/media/tpryan/Applications/RailsProjects/Accounts/log/development.log",
+		"/media/tpryan/Applications/RailsProjects/Accounts/app/assets/stylesheets/application.scss",
+		"/media/tpryan/Applications/RailsProjects/Accounts/app/assets/javascripts/application.js",
+		"/media/tpryan/Applications/RailsProjects/Accounts/app/assets/stylesheets/application.css",
+		"/media/tpryan/Applications/RailsProjects/Accounts/app/assets/config/manifest.js",
+		"/media/tpryan/Applications/RailsProjects/Accounts/app/assets/javascripts/hello.es6",
+		"/media/tpryan/Applications/FreeCodeCamp/roguelike/minpq.js",
+		"/media/tpryan/Applications/FreeCodeCamp/roguelike/index.html",
+		"/media/tpryan/Applications/FreeCodeCamp/roguelike/main.js",
+		"/media/tpryan/Applications/FreeCodeCamp/roguelike/style.css",
+		"/media/tpryan/Applications/FreeCodeCamp/roguelike/npm-debug.log",
+		"/media/tpryan/Applications/FreeCodeCamp/roguelike/.gitignore",
+		"/media/tpryan/Applications/FreeCodeCamp/roguelike/package.json",
+		"/media/tpryan/Applications/FreeCodeCamp/roguelike/webpack.config.js",
+		"/media/tpryan/Applications/FreeCodeCamp/react-fundamentals/style.css",
+		"/media/tpryan/Applications/FreeCodeCamp/react-fundamentals/App.js",
+		"/media/tpryan/Applications/FreeCodeCamp/react-fundamentals/main.js",
+		"/media/tpryan/Applications/FreeCodeCamp/react-fundamentals/index.html",
+		"/media/tpryan/Applications/FreeCodeCamp/react-fundamentals/.gitignore",
+		"/media/tpryan/Applications/FreeCodeCamp/react-fundamentals/package.json",
+		"/media/tpryan/Applications/FreeCodeCamp/react-fundamentals/webpack.config.js",
+		"/media/tpryan/Applications/FreeCodeCamp/react-tutorial/public/index.html",
+		"/media/tpryan/Applications/FreeCodeCamp/react-tutorial/public/css/base.css",
+		"/media/tpryan/Applications/FreeCodeCamp/react-tutorial/comments.json",
+		"/media/tpryan/Applications/FreeCodeCamp/react-tutorial/public/scripts/my-example.js",
+		"/media/tpryan/Applications/FreeCodeCamp/react-tutorial/README.md",
+		"/media/tpryan/Applications/FreeCodeCamp/kanban-app/app/index.js",
+		"/media/tpryan/Applications/FreeCodeCamp/kanban-app/webpack.config.js",
+		"/media/tpryan/Applications/FreeCodeCamp/kanban-app/app/components/App.jsx",
+		"/media/tpryan/Applications/FreeCodeCamp/kanban-app/app/components/Note.jsx",
+		"/media/tpryan/Applications/FreeCodeCamp/kanban-app/.babelrc",
+		"/media/tpryan/Applications/FreeCodeCamp/kanban-app/app/component.old",
+		"/media/tpryan/Applications/FreeCodeCamp/kanban-app/build/index.html",
+		"/media/tpryan/Applications/FreeCodeCamp/kanban-app/app/main.scss",
+		"/media/tpryan/Applications/FreeCodeCamp/kanban-app/app/main.sass",
+		"/media/tpryan/Applications/FreeCodeCamp/kanban-app/package.json",
+		"/media/tpryan/Applications/FreeCodeCamp/kanban-app/build/bundle.js",
+		"/media/tpryan/Applications/FreeCodeCamp/kanban-app/.gitignore",
+		"/home/tpryan/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"this",
+			"var",
+			"let",
+			"input_appt_time",
+			"input_title",
+			"input_appt_time",
+			"input_title",
+			"item",
+			"#",
+			"updateItems",
+			"removeItemClient",
+			"items",
+			"handleEdit",
+			"secondary",
+			"btn-default",
+			"panelType",
+			"panel",
+			"addRecord",
+			"Credit",
+			"credits",
+			"success",
+			"Credit",
+			"credits",
+			"success",
+			"credits",
+			"name",
+			"this.state.grid",
+			"initCellDistance",
+			"PIXELS",
+			"getRoom",
+			"clearQueue",
+			"this.N",
+			"cmp",
+			"cmp_cb",
+			"boxColRght",
+			"boxColLeft",
+			"boxRowBtm",
+			"boxRowTop",
+			"boxRowRght",
+			"boxRowLeft",
+			"clearQueue",
+			"queueIsEmpty",
+			"clearQueue",
+			"initQueue",
+			"clearQueue",
+			".f",
+			"cost",
+			"import",
+			".cost",
+			"randomSeed",
+			"equals",
+			"contains",
+			"cost",
+			"toColor",
+			"visited",
+			"empty",
+			"clear",
+			"MaxPQ",
+			"cell_b",
+			"cell_a",
+			"14",
+			"10",
+			"room_b",
+			"room_a",
+			".cost",
+			"pathQueue",
+			"allNeighborsFound",
+			"connectNeighbor",
+			"recordNeighbor",
+			"connectedSet",
+			"foundSet",
+			"colored",
+			"ary",
+			"connections",
+			"connected",
+			"found",
+			"visitNeighbor",
+			"findNeighbor",
+			"queue",
+			"enqueue",
+			"room.queue.empty",
+			"console",
+			"empty",
+			"div",
+			"exchange",
+			"exch",
+			"xch",
+			"exch",
+			"cost",
+			"queue",
+			" N",
+			"pq",
+			"N",
+			"size",
+			"maxN",
+			"less",
+			"Key",
+			"void",
+			"boolean",
+			"int",
+			"public",
+			"private",
+			"hardness",
+			"cell",
+			"sameCell",
+			"console",
+			"connected",
+			"console",
+			"neighbors",
+			"neighborCount",
+			"cell_2",
+			"cell_1",
+			"room_2",
+			"room_1",
+			"root",
+			"cell",
+			"Cell",
+			"root",
+			"nextCells",
+			"alive",
+			"push",
+			"seed",
+			"onEdge",
+			"makeRooms",
+			"this",
+			"dequeue",
+			"enqueue",
+			"Q"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "calreact.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
