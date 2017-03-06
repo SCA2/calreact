@@ -25,3 +25,7 @@ node_modules
 
 # Generated js bundles
 /app/assets/webpack/*
+
+# Sublime
+calreact.sublime-workspace
+calreact.sublime-project
