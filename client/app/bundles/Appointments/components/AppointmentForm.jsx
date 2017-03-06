@@ -1,3 +1,7 @@
+import React from 'react';
+import Label from './Label';
+import Datetime from 'react-datetime';
+
 class AppointmentForm extends React.Component {
   constructor(props) {
     super(props)
@@ -54,3 +58,5 @@ class AppointmentForm extends React.Component {
     )
   }
 }
+
+export default AppointmentForm;

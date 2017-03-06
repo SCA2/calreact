@@ -1,3 +1,8 @@
+import React from 'react';
+import AppointmentForm from './AppointmentForm';
+import AppointmentsList from './AppointmentsList';
+import update from 'immutability-helper';
+
 class Appointments extends React.Component {
   constructor(props) {
     super(props)
@@ -33,7 +38,7 @@ class Appointments extends React.Component {
   }
 
   addAppointment(appointment) {
-    let newState = this.state.appointments.concat(appointment);
+    let newState = update(this.state.appointments, {$push: [appointment]});
     newState = newState.sort((a, b) => {
       return new Date(a.appt_time) - new Date(b.appt_time)
     })
@@ -53,3 +58,5 @@ class Appointments extends React.Component {
     )
   }
 }
+
+export default Appointments;

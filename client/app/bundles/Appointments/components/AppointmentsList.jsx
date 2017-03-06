@@ -1,3 +1,6 @@
+import React from 'react';
+import Appointment from'./Appointment';
+
 const AppointmentsList = ({appointments}) =>
   <div>
     {appointments.map((appointment) =>
@@ -6,3 +9,5 @@ const AppointmentsList = ({appointments}) =>
         appointment={appointment} />
     )}
   </div>
+
+export default AppointmentsList
