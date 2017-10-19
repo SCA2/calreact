@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import {formatDate} from '../utils/format';
 
 const Appointment = ({appointment}) =>
@@ -7,4 +7,7 @@ const Appointment = ({appointment}) =>
     <p>{formatDate(appointment.appt_time)}</p>
   </div>
 
+Appointment.propTypes = {
+  appointment: PropTypes.object.isRequired
+}
 export default Appointment;

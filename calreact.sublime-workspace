@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"imp",
+				"import〔keyword〕"
+			],
+			[
 				"A",
 				"Appointment"
 			],
@@ -191,20 +195,19 @@
 			}
 		},
 		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 798,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "client/app/bundles/Appointments/components/Appointment.jsx",
 			"settings":
 			{
 				"buffer_size": 260,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/app/bundles/Appointments/startup/registration.jsx",
+			"settings":
+			{
+				"buffer_size": 215,
 				"line_ending": "Unix"
 			}
 		}
@@ -216,16 +219,32 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 390.0,
+		"height": 372.0,
 		"last_filter": "Package Control: ",
 		"selected_items":
 		[
 			[
 				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"settings",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
 				"Package Control: Remove Package"
+			],
+			[
+				"sublimelinter sett",
+				"Preferences: SublimeLinter Settings – User"
 			]
 		],
-		"width": 467.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -250,24 +269,30 @@
 		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/app",
 		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/app/assets",
 		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/app/assets/javascripts",
+		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/app/assets/stylesheets",
+		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/app/controllers",
+		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/app/models",
 		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/app/views",
 		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/app/views/appointments",
 		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/client",
 		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/client/app",
 		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/client/app/bundles",
 		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/client/app/bundles/Appointments",
-		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/client/node_modules/react-on-rails/node_package",
-		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/client/node_modules/react-on-rails/node_package/lib",
 		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/config",
 		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/config/environments",
-		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/log",
-		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/vendor/assets",
-		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/vendor/assets/javascripts"
+		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/log"
 	],
 	"file_history":
 	[
-		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/client/package.json",
+		"/home/tpryan/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/tpryan/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/app/controllers/application_controller.rb",
+		"/home/tpryan/.config/sublime-text-3/Packages/SublimeLinter/Default (Linux).sublime-keymap",
 		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/Gemfile",
+		"/home/tpryan/.bashrc",
+		"/home/tpryan/.bash_profile",
+		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/.gitignore",
+		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/client/package.json",
 		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/Procfile.dev",
 		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/config/puma.rb",
 		"/media/tpryan/Applications/RailsProjects/ReactOnRails5/calreact/client/app/bundles/Appointments/utils.js",
@@ -378,6 +403,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"update",
 			"Started",
 			"HelloWorld",
 			"this",
@@ -504,8 +530,7 @@
 			"seed",
 			"onEdge",
 			"makeRooms",
-			"this",
-			"dequeue"
+			"this"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -523,7 +548,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -539,8 +564,8 @@
 						"selection":
 						[
 							[
-								478,
-								478
+								697,
+								697
 							]
 						],
 						"settings":
@@ -549,7 +574,7 @@
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 432.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -568,8 +593,8 @@
 						"selection":
 						[
 							[
-								1074,
-								1074
+								968,
+								968
 							]
 						],
 						"settings":
@@ -578,10 +603,10 @@
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 486.0,
+						"translation.y": 216.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -610,40 +635,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Gemfile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 798,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								712,
-								712
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 162.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "client/app/bundles/Appointments/components/Appointment.jsx",
 					"semi_transient": false,
 					"settings":
@@ -668,7 +664,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "client/app/bundles/Appointments/startup/registration.jsx",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
