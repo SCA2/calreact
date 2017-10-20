@@ -16,7 +16,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'react_on_rails', '~> 6.7.2'
 gem 'haml', '~> 4.0.7'
-
+gem 'devise'
 
 group :development, :test do
   gem 'sqlite3', '~> 1.3.13'
@@ -34,4 +34,5 @@ end
 group :production do
   gem 'pg', '~> 0.19.0'
 end
+
 gem 'mini_racer', platforms: :ruby
