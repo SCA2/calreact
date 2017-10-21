@@ -14,9 +14,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails', '~> 4.2.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
-gem 'react_on_rails', '~> 6.7.2'
 gem 'haml', '~> 4.0.7'
 gem 'devise'
+gem 'mini_racer', platforms: :ruby
+gem 'rack-cors', require: 'rack/cors'
 
 group :development, :test do
   gem 'sqlite3', '~> 1.3.13'
@@ -35,4 +36,3 @@ group :production do
   gem 'pg', '~> 0.19.0'
 end
 
-gem 'mini_racer', platforms: :ruby
